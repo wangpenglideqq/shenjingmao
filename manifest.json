@@ -1,0 +1,25 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/assetsmanager/assetsmanager.js",
+		"libs/modules/promise/promise.js"
+	],
+	"game": [
+		"bin-debug/game/StartGamePanel.js",
+		"bin-debug/LoadingUI.js",
+		"bin-debug/Platform.js",
+		"bin-debug/game/BackGroundPanel.js",
+		"bin-debug/game/GameOverPanel.js",
+		"bin-debug/game/GamePanel.js",
+		"bin-debug/Main.js",
+		"bin-debug/game/Util.js",
+		"bin-debug/game/ViewManager.js",
+		"bin-debug/game/data/CatAI.js",
+		"bin-debug/game/data/GameData.js",
+		"bin-debug/game/element/Cat.js",
+		"bin-debug/game/element/Tile.js"
+	]
+}

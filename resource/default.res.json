@@ -1,0 +1,41 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,action1_json,action1_png,action2_json,action2_png,gameres_json",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "action1_json",
+			"type": "json",
+			"url": "assets/action1.json"
+		},
+		{
+			"name": "action1_png",
+			"type": "image",
+			"url": "assets/action1.png"
+		},
+		{
+			"name": "action2_json",
+			"type": "json",
+			"url": "assets/action2.json"
+		},
+		{
+			"name": "action2_png",
+			"type": "image",
+			"url": "assets/action2.png"
+		},
+		{
+			"name": "gameres_json",
+			"type": "sheet",
+			"url": "assets/gameres.json",
+			"subkeys": "bg,btn_start,failed,pot1,pot2,replay,victory"
+		}
+	]
+}
